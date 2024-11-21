@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Task 1 -->
+    <h1>Product List</h1>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+    <hr />
+    <!-- Task 2 -->
+    <h1>Sum and Average Calculator</h1>
+    <p>Enter numbers separated by commas (e.g., 10, 20, 30):</p>
+    <input type="text" id="numbers" placeholder="Enter numbers" />
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result1"></p>
+    <p id="average"></p>
+    <hr />
+
+    <!-- Task 3 -->
+    <h1>Remove Duplicates from Array</h1>
+    <p>
+      Enter an array of strings (comma separated, e.g., "apple, orange, apple"):
+    </p>
+    <input type="text" id="arrayInput" placeholder="Enter array of strings" />
+    <button onclick="removeDuplicates()">Remove Duplicates</button>
+
+    <p id="result2"></p>
+
+    <hr />
+    <!-- Task 4  -->
+    <h1>Product Price Calculator</h1>
+    <p>Click the button to calculate the total price of products.</p>
+    <button onclick="calculateTotalPrice()">Calculate Total Price</button>
+
+    <p id="result3"></p>
+    <hr />
+
+    <!-- Task 5 -->
+    <h1>Email Address Validator</h1>
+    <p>Enter an email address to check if it's valid:</p>
+    <input type="text" id="emailInput" placeholder="Enter email" />
+    <button onclick="validateEmail()">Validate Email</button>
+
+    <p id="result4"></p>
+
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

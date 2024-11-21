@@ -1,0 +1,40 @@
+/* Task 1 */
+/* Center the heading */
+h1 {
+    text-align: center;
+}
+
+/* Style the unordered list */
+ul {
+    list-style-type: none; 
+    margin: 20px auto; 
+    padding: 10px;
+    width: 250px; 
+    background-color: lightgray; 
+    border: 1px solid darkgray; 
+    border-radius: 5px; 
+    text-align: center;
+}
+
+/* Style individual list items */
+ul li {
+    font-weight: bold; 
+    color: green; 
+    margin: 5px 0; 
+}
+
+/* Task 2 */
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+p {
+    font-weight: bold;
+}
+
+/* Task 5 */
+
+.invalid {
+    color: red;
+}
